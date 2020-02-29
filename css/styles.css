@@ -7,7 +7,57 @@ html, body{
 h1{
   font-size: 96px;
   font-size: 6rem;
-  font-weight: bold;
+  font-weight: 700;
+}
+
+h2{
+  font-size: 48px;
+  font-size: 3rem;
+  font-weight: 700;
+
+}
+
+h3{
+  font-size: 36px;
+  font-size: 2.25rem;
+  font-weight: 700;
+
+}
+
+h5{
+  font-size: 18px;
+  font-size: 1.125rem;
+  font-weight: 700;
+
+}
+
+.light-description{
+  font-size: 18px;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.light-card{
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.op-50{
+  opacity: 50%;
+}
+
+
+.op-70{
+  opacity: 70%;
+}
+
+.op-80{
+  opacity: 80%;
+}
+
+.op-90{
+  opacity: 90%;
 }
 
 .nav{
@@ -65,5 +115,85 @@ h1{
   /* height: 100%; */
   /* width: 100%; */
   object-fit: cover;
+
+}
+
+#cards-container{
+  /* margin-top: -120px; */
+  margin-top: -6%;
+  z-index: 2;
+}
+
+.card{
+  margin: 20px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.16);
+  -moz-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.16);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.16);
+  border-radius: 15px;
+}
+
+.card:hover{
+  -webkit-box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.16);
+  -moz-box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.16);
+  box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.16);
+}
+
+.card:hover h3{
+  color: #5E6C97;
+}
+
+.card-description{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.card-img{
+  object-fit: cover;
+
+}
+
+#week{
+  background-color: #F7F7F7;
+  z-index: 1;
+}
+
+.week-pics{
+  /* padding: 20px; */
+}
+
+#about{
+  margin-top: -11%;
+  z-index: -1;
+}
+
+.under{
+  z-index: -1;
+}
+
+
+footer{
+  z-index: 1;
+  /* margin-top: -20%; */
+}
+
+
+.contact{
+  background-image: url("../img/yellow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  object-fit: cover;
+}
+
+.contact-list{
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 24px;
+  font-size: 1.5rem;
+  padding-left: 0;
+  line-height: 40px;
+  line-height: 2.5rem;
+  padding-top: 30px;
 
 }
