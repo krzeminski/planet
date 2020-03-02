@@ -16,24 +16,26 @@
 </head>
 
 <body>
-  <nav class="nav">
-    <div class="logo">
-      Logo
+  <nav class="nav container-fluid">
+    <div class="row w-100">
+      <div class="col-6 logo py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-2 offset-1">
+              <h3>Logo</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="d-flex justify-content-between">
+          <a class="nav-links px-5 py-4" href="#">Odcinki</a>
+          <a class="nav-links px-5 py-4" href="#about">O&nbspnas</a>
+          <a class="nav-links px-5 py-4" href="#contact">Kontakt</a>
+          <a class="nav-links px-5 py-4" href="#">Szukaj</a>
+        </div>
+      </div>
     </div>
-    <ul class="list">
-      <li class="">
-        <a class="nav-links" href="#">Odcinki</a>
-      </li>
-      <li class="">
-        <a class="nav-links" href="#">O nas</a>
-      </li>
-      <li class="">
-        <a class="nav-links" href="#">Kontakt</a>
-      </li>
-      <li class="">
-        <a class="nav-links" href="#">Szukaj</a>
-      </li>
-    </ul>
   </nav>
   <header class="hero h-125">
     <div class="container-fluid h-100">
@@ -41,11 +43,17 @@
         <div class="col-6">
           <div class="container h-100">
             <div class="row d-flex h-100">
-              <div class="col-6 offset-1 hero-text">
+              <div class="col-7 offset-1 hero-text">
                 <h1 class="">Podcasty Slow Food</h1>
                 <p class="light-description">A, gravida sem in vitae, malesuada blandit vitae. Amet urna urna magna feugiat in gravida tellus amet.</p>
-                <button type="button" class="btn btn-dark">LISTEN ON Spotify</button>
-                <button type="button" class="btn btn-dark">Słuchaj w apple podcast</button>
+                <div class="badges pt-4 pb-2 d-flex align-middle">
+                  <a class="badge p-2" href="#">
+                    <img src="img/spotify_podcast.png" alt="">
+                  </a>
+                  <a class="badge p-2" href="#">
+                    <img src="img/apple_podcast.png" alt="">
+                  </a>
+                </div>
                 <p >Posłuchaj na innych serwisach</p>
               </div>
             </div>
@@ -62,15 +70,15 @@
   </header>
 
   <section class="">
-    <div id="cards-container" class="container">
+    <div id="cards-container" class="container w-50">
       <h5 class="">Ostatnie odcinki</h5>
 
         <div class="card">
           <div class="row">
-            <div class="col-4">
+            <div class="col-4 pr-0">
               <img class="card-img" src="img/card-img.png" alt="">
             </div>
-            <div class="col-8 d-flex p-5 mr-0">
+            <div class="col-8 d-flex p-4">
               <div class="align-self-center">
                 <p class="light-description op-70">19 września 2020</p>
                 <h3>Interesujące miejsca na kulinarnej mapie <span class="light-description op-80">- Odcinek 13</span></h3>
@@ -83,10 +91,10 @@
 
         <div class="card">
           <div class="row">
-            <div class="col-4">
+            <div class="col-4 pr-0">
               <img class="card-img" src="img/card-img.png" alt="">
             </div>
-            <div class="col-8 d-flex p-5 mr-0">
+            <div class="col-8 d-flex p-4">
               <div class="align-self-center">
                 <p class="light-description op-70">19 września 2020</p>
                 <h3>Interesujące miejsca na kulinarnej mapie <span class="light-description op-80">- Odcinek 13</span></h3>
@@ -99,10 +107,10 @@
 
         <div class="card">
           <div class="row">
-            <div class="col-4">
+            <div class="col-4 pr-0">
               <img class="card-img" src="img/card-img.png" alt="">
             </div>
-            <div class="col-8 d-flex p-5 mr-0">
+            <div class="col-8 d-flex p-4">
               <div class="align-self-center">
                 <p class="light-description op-70">19 września 2020</p>
                 <h3>Interesujące miejsca na kulinarnej mapie <span class="light-description op-80">- Odcinek 13</span></h3>
@@ -120,11 +128,14 @@
   <section id="week" class="h-50 d-flex align-items-center">
     <div class="container-fluid">
       <div class="row justify-content-around py-5">
-        <div class="col-3 ">
-          <h2>Tydzień z naszym partnerem</h2>
-          <p class="light-description">A, gravida sem in vitae, malesuada blandit vitae. Amet urna urna magna feugiat in gravida tellus amet.</p>
+        <div class="col-3 d-flex align-items-center px-4">
+          <div class="ml-4">
+
+            <h2>Tydzień z naszym partnerem</h2>
+            <p class="light-description">A, gravida sem in vitae, malesuada blandit vitae. Amet urna urna magna feugiat in gravida tellus amet.</p>
+          </div>
         </div>
-        <div class="col-5 ">
+        <div class="col-6 mr-4">
           <img src="img/week1.png" alt="" class="p-2">
           <img src="img/week2.png" alt="" class="p-2">
           <img src="img/week3.png" alt="" class="p-2">
@@ -140,30 +151,40 @@
         </div>
         <div class="col-6 d-flex p-5 under">
           <div class="align-self-center p-5 ">
-            <h2>O nas</h2>
-            <p class="light-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus diam neque proin enim massa ipsum enim rhoncus duis. Pellentesque tincidunt consequat volutpat consectetur ornare.
-              Id justo id hac nibh. Non ornare ante dictum fermentum pellentesque purus, mattis eget vulputate. Non in massa consequat pulvinar aenean diam hac in mattis. Quis sem elementum in sem amet quis sociis sit.
-            </p>
+            <div class="p-5 m-4">
+              <h2>O nas</h2>
+              <p class="light-description text-justify mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus diam neque proin enim massa ipsum enim rhoncus duis. Pellentesque tincidunt consequat volutpat consectetur ornare.
+                Id justo id hac nibh. Non ornare ante dictum fermentum pellentesque purus, mattis eget vulputate. Non in massa consequat pulvinar aenean diam hac in mattis. Quis sem elementum in sem amet quis sociis sit.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <footer class="h-25">
+  <footer class="h-25" id="contact">
     <div class="container-fluid h-100">
       <div class="row h-100 ">
         <div class="col-6 p-5">
-          <h2>Co nowego u nas?</h2>
-          <p class="light-description">Zapisz się do newslettera</p>
-          <input type="email" name="" value="" placeholder="mail@twój.pl">
-          <button type="button" name="button"></button>
+          <div class="align-self-center p-5 ">
+            <div class="p-5 m-4">
+              <h2>Co nowego u nas?</h2>
+              <p class="light-description">Zapisz się do newslettera</p>
+              <input type="email" name="" value="" class="email-input" placeholder="mail@twój.pl">
+              <button type="button" name="button" class="sign-me">Zapisz mnie</button>
+            </div>
+          </div>
         </div>
-        <div class="col-6 contact p-5">
-          <h2>Kontakt</h2>
-          <ul class="contact-list op-90">
-            <li>bartosz.wilczyński@mail.pl</li>
-            <li>mail2@mail2.pl</li>
-          </ul>
+        <div class="col-6 contact p-5 d-flex">
+          <div class="align-self-center p-5 ">
+            <div class="p-5 m-4">
+              <h2>Kontakt</h2>
+              <ul class="contact-list op-90">
+                <li>bartosz.wilczyński@mail.pl</li>
+                <li>mail2@mail2.pl</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>

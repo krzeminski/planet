@@ -8,12 +8,14 @@ h1{
   font-size: 96px;
   font-size: 6rem;
   font-weight: 700;
+  line-height: 100px;
 }
 
 h2{
   font-size: 48px;
   font-size: 3rem;
   font-weight: 700;
+  line-height: 40px;
 
 }
 
@@ -62,36 +64,51 @@ h5{
 
 .nav{
   position: absolute;
-  top:0;
+  /* top:0; */
   z-index: 1;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  padding-left: 15px;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: flex-end; */
 
   width: 100%;
 }
 
-.list{
-  list-style-type: none;
-  /* align-self: flex-end; */
-}
-
-.list > li{
-  display: inline-block;
-  padding: 20px 100px;
-}
-
 .logo{
-  position: absolute;
-  left: 0;
-  padding: 20px;
+  /* position: absolute; */
+  /* left: 0; */
+  /* padding: 20px; */
 }
+
 
 .nav-links{
   color: #fff;
+  display: block;
   text-decoration: none;
   font-size:18px;
   font-weight: 600;
+  width: fit-content;
+}
+
+.nav-links:active{
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links:visited{
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links:hover{
+  /* color: #fff; */
+  color: rgb(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.nav-links:focus{
+  color: rgb(255,255,255,0.8);
+  text-decoration: none;
 }
 
 .h-125{
@@ -120,12 +137,12 @@ h5{
 
 #cards-container{
   /* margin-top: -120px; */
-  margin-top: -6%;
+  margin-top: -9%;
   z-index: 2;
 }
 
 .card{
-  margin: 20px;
+  margin: 25px 0;
   background-color: #fff;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.16);
   -moz-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.16);
@@ -149,6 +166,8 @@ h5{
 }
 
 .card-img{
+  height: 100%;
+  width: 100%;
   object-fit: cover;
 
 }
@@ -175,6 +194,31 @@ h5{
 footer{
   z-index: 1;
   /* margin-top: -20%; */
+}
+
+.email-input{
+  width: 100%;
+  background-color: rgb(196,196,196,0.2);
+  border: 0px none;
+  border-radius: 15px;
+  font-size: 18px;
+  line-height: 36px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.sign-me{
+  background: #8B9CD1;
+  border: 0 none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  padding: 5px 35px;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
 }
 
 
