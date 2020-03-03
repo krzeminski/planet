@@ -1,194 +1,196 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="description" content="We at Skyverse will make you a catchy and relevant website. Trust us! ">
-  <meta name="keywords" content="web development, web design, website, making websites, UI, UX">
-  <meta name="author" content="Skyverse">
-  <title>Planet Partners</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700&display=swap&subset=latin-ext" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <style>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- <meta name="description" content="We at Skyverse will make you a catchy and relevant website. Trust us! "> -->
+    <!-- <meta name="keywords" content="web development, web design, website, making websites, UI, UX"> -->
+    <!-- <meta name="author" content="Skyverse"> -->
+    <title>Planet Partners</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <style>
+      .nav-links{
+        color: rgb(64,65,77,0.7);
+      }
+      .nav-links:active{
+        color: rgb(64,65,77,0.5);
+      }
+      .nav-links:visited{
+        color: rgb(64,65,77,0.7);
+      }
+      .nav-links:hover{
+        color: rgb(64,65,77,0.5);
+      }
+      .nav-links:focus{
+        color: rgb(64,65,77,0.5);
+      }
+    </style>
+  </head>
 
-    .nav-links{
-      color: rgb(64,65,77,0.7);
-    }
-    .nav-links:active{
-      color: rgb(64,65,77,0.5);
-    }
-    .nav-links:visited{
-      color: rgb(64,65,77,0.7);
-    }
-    .nav-links:hover{
-      color: rgb(64,65,77,0.5);
-    }
-    .nav-links:focus{
-      color: rgb(64,65,77,0.5);
-    }
-  </style>
-</head>
-
-<body>
-  <nav class="nav container-fluid">
-    <div class="row w-100">
-      <div class="col-6 logo py-4">
-        <div class="container">
-          <div class="row">
-            <div class="col-2 offset-1">
-              <h3>Logo</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-6">
-        <div class="d-flex justify-content-between">
-          <a class="nav-links px-5 py-4" href="episodes.html">Odcinki</a>
-          <a class="nav-links px-5 py-4" href="#about">O&nbspnas</a>
-          <a class="nav-links px-5 py-4" href="#contact">Kontakt</a>
-          <a class="nav-links px-5 py-4" href="article.html">Szukaj</a>
-        </div>
-      </div>
-    </div>
-  </nav>
-  <header class="hero h-50">
-    <div class="container-fluid h-100 d-flex align-items-center justify-content-center">
-      <div class="text-center mt-5">
-        <h1 class="h72">Wszystkie odcinki</h1>
-        <p class="sub72">A, gravida sem in vitae, malesuada blandit vitae. Amet urna urna magna feugiat in gravida tellus amet. </p>
-        <button type="button" name="button" class="sign-me">Odsłuchaj</button>
-
-      </div>
-    </div>
-  </header>
-
-  <section class="">
-    <div class="container w-50 p-4">
-        <div class="card">
-          <div class="row">
-            <div class="col-4 pr-0">
-              <img class="card-img" src="img/card-img.png" alt="">
-            </div>
-            <div class="col-8 d-flex p-4">
-              <div class="align-self-center">
-                <p class="light-description op-70">19 września 2020</p>
-                <h3>Interesujące miejsca na kulinarnej mapie <span class="light-description op-80">- Odcinek 13</span></h3>
-                <p class="light-card op-80">Id arcu mi ultrices urna pellentesque. Non, in mauris quis consequat. Enim ultricies congue proin faucibus gravida aliquam. Sed nam vitae, mauris faucibus molestie sit id. Non massa bibendum egestas in nisi, aliquet diam, faucibus non.</p>
-                <p class="light-description op-50">go min</p>
+  <body>
+    <nav class="nav container-fluid">
+      <div class="row w-100">
+        <div class="col-md-6 logo py-md-4">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-2 offset-md-1">
+                <h3>Logo</h3>
               </div>
             </div>
           </div>
         </div>
+        <div id="menu" class="col-md-6">
+          <div class="d-flex justify-content-between">
+            <a class="nav-links px-5 py-4" href="episodes.html">Odcinki</a>
+            <a class="nav-links px-5 py-4" href="#about">O&nbspnas</a>
+            <a class="nav-links px-5 py-4" href="#contact">Kontakt</a>
+            <a class="nav-links px-5 py-4" href="article.html">Szukaj</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header class="h-50">
+      <div class="container-fluid h-100 d-flex align-items-center justify-content-center">
+        <div class="text-center mt-md-5">
+          <h1 class="h72">Wszystkie odcinki</h1>
+          <p class="sub72">A, gravida sem in vitae, malesuada blandit vitae. Amet urna urna magna feugiat in gravida tellus amet. </p>
+          <button type="button" name="button" class="sign-me">Odsłuchaj</button>
 
-        <div class="card">
-          <div class="row">
-            <div class="col-4 pr-0">
-              <img class="card-img" src="img/card-img.png" alt="">
+        </div>
+      </div>
+    </header>
+    <main>
+
+
+    <section class="">
+      <div id="deck" class="container w-75 p-md-4">
+          <div class="card">
+            <div class="row">
+              <div class="col-md-4 col-sm-12 pr-md-0">
+                <img class="card-img" src="img/card-img.png" alt="">
+              </div>
+              <div class="col-md-8 col-sm-12 d-flex p-md-4">
+                <div class="align-self-center">
+                  <p class="light-description op-70">19 września 2020</p>
+                  <h3>Interesujące miejsca na kulinarnej mapie <span class="light-description op-80 episode_no">- Odcinek 13</span></h3>
+                  <p class="light-card op-80">Id arcu mi ultrices urna pellentesque. Non, in mauris quis consequat. Enim ultricies congue proin faucibus gravida aliquam. Sed nam vitae, mauris faucibus molestie sit id. Non massa bibendum egestas in nisi, aliquet diam, faucibus non.</p>
+                  <p class="light-description op-50">go min</p>
+                </div>
+              </div>
             </div>
-            <div class="col-8 d-flex p-4">
-              <div class="align-self-center">
-                <p class="light-description op-70">19 września 2020</p>
-                <h3>Interesujące miejsca na kulinarnej mapie <span class="light-description op-80">- Odcinek 13</span></h3>
-                <p class="light-card op-80">Id arcu mi ultrices urna pellentesque. Non, in mauris quis consequat. Enim ultricies congue proin faucibus gravida aliquam. Sed nam vitae, mauris faucibus molestie sit id. Non massa bibendum egestas in nisi, aliquet diam, faucibus non.</p>
-                <p class="light-description op-50">go min</p>
+          </div>
+
+          <div class="card">
+            <div class="row">
+              <div class="col-md-4 pr-md-0">
+                <img class="card-img" src="img/card-img.png" alt="">
+              </div>
+              <div class="col-md-8 d-flex p-md-4">
+                <div class="align-self-center">
+                  <p class="light-description op-70 date">19 września 2020</p>
+                  <h3>Interesujące miejsca na kulinarnej mapie <span class="light-description op-80">- Odcinek 13</span></h3>
+                  <p class="light-card op-80">Id arcu mi ultrices urna pellentesque. Non, in mauris quis consequat. Enim ultricies congue proin faucibus gravida aliquam. Sed nam vitae, mauris faucibus molestie sit id. Non massa bibendum egestas in nisi, aliquet diam, faucibus non.</p>
+                  <p class="light-description op-50">go min</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="row">
+              <div class="col-md-4 pr-md-0">
+                <img class="card-img" src="img/card-img.png" alt="">
+              </div>
+              <div class="col-md-8 d-flex p-md-4">
+                <div class="align-self-center">
+                  <p class="light-description op-70">19 września 2020</p>
+                  <h3>Interesujące miejsca na kulinarnej mapie <span class="light-description op-80">- Odcinek 13</span></h3>
+                  <p class="light-card op-80">Id arcu mi ultrices urna pellentesque. Non, in mauris quis consequat. Enim ultricies congue proin faucibus gravida aliquam. Sed nam vitae, mauris faucibus molestie sit id. Non massa bibendum egestas in nisi, aliquet diam, faucibus non.</p>
+                  <p class="light-description op-50">go min</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="row">
+              <div class="col-md-4 pr-md-0">
+                <img class="card-img" src="img/card-img.png" alt="">
+              </div>
+              <div class="col-md-8 d-flex p-md-4">
+                <div class="align-self-center">
+                  <p class="light-description op-70">19 września 2020</p>
+                  <h3>Interesujące miejsca na kulinarnej mapie <span class="light-description op-80">- Odcinek 13</span></h3>
+                  <p class="light-card op-80">Id arcu mi ultrices urna pellentesque. Non, in mauris quis consequat. Enim ultricies congue proin faucibus gravida aliquam. Sed nam vitae, mauris faucibus molestie sit id. Non massa bibendum egestas in nisi, aliquet diam, faucibus non.</p>
+                  <p class="light-description op-50">go min</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="m-auto w-50 d-flex justify-content-around">
+          <a class="idx" href="#">1</a>
+          <a class="idx" href="#">2</a>
+          <a class="idx" href="#">3</a>
+          <a class="idx" href="#">4</a>
+          <a class="idx" href="#">5</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="week" class="h-50 d-flex align-items-center">
+      <div class="container-fluid">
+        <div class="row justify-content-around py-5">
+          <div class="col-md-3 d-flex align-items-center px-4">
+            <div class="ml-4">
+
+              <h2>Tydzień z naszym partnerem</h2>
+              <p class="light-description">A, gravida sem in vitae, malesuada blandit vitae. Amet urna urna magna feugiat in gravida tellus amet.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mr-4">
+            <img src="img/week1.png" alt="" class="p-2">
+            <img src="img/week2.png" alt="" class="p-2">
+            <img src="img/week3.png" alt="" class="p-2">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <footer class="h-25" id="contact">
+      <div class="container-fluid h-100">
+        <div class="row h-100 ">
+          <div class="col-md-6 p-5">
+            <div class="align-self-center p-5 ">
+              <div class="p-5 m-4">
+                <h2>Co nowego u nas?</h2>
+                <p class="light-description">Zapisz się do newslettera</p>
+                <input type="email" name="" value="" class="email-input" placeholder="mail@twój.pl">
+                <button type="button" name="button" class="sign-me">Zapisz mnie</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 contact p-5 d-flex">
+            <div class="align-self-center p-5 ">
+              <div class="p-5 m-4">
+                <h2>Kontakt</h2>
+                <ul class="contact-list op-90">
+                  <li>bartosz.wilczyński@mail.pl</li>
+                  <li>mail2@mail2.pl</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-
-        <div class="card">
-          <div class="row">
-            <div class="col-4 pr-0">
-              <img class="card-img" src="img/card-img.png" alt="">
-            </div>
-            <div class="col-8 d-flex p-4">
-              <div class="align-self-center">
-                <p class="light-description op-70">19 września 2020</p>
-                <h3>Interesujące miejsca na kulinarnej mapie <span class="light-description op-80">- Odcinek 13</span></h3>
-                <p class="light-card op-80">Id arcu mi ultrices urna pellentesque. Non, in mauris quis consequat. Enim ultricies congue proin faucibus gravida aliquam. Sed nam vitae, mauris faucibus molestie sit id. Non massa bibendum egestas in nisi, aliquet diam, faucibus non.</p>
-                <p class="light-description op-50">go min</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="row">
-            <div class="col-4 pr-0">
-              <img class="card-img" src="img/card-img.png" alt="">
-            </div>
-            <div class="col-8 d-flex p-4">
-              <div class="align-self-center">
-                <p class="light-description op-70">19 września 2020</p>
-                <h3>Interesujące miejsca na kulinarnej mapie <span class="light-description op-80">- Odcinek 13</span></h3>
-                <p class="light-card op-80">Id arcu mi ultrices urna pellentesque. Non, in mauris quis consequat. Enim ultricies congue proin faucibus gravida aliquam. Sed nam vitae, mauris faucibus molestie sit id. Non massa bibendum egestas in nisi, aliquet diam, faucibus non.</p>
-                <p class="light-description op-50">go min</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      <div class="m-auto w-50 d-flex justify-content-around">
-        <a class="idx" href="#">1</a>
-        <a class="idx" href="#">2</a>
-        <a class="idx" href="#">3</a>
-        <a class="idx" href="#">4</a>
-        <a class="idx" href="#">5</a>
       </div>
-    </div>
-  </section>
-
-  <section id="week" class="h-50 d-flex align-items-center">
-    <div class="container-fluid">
-      <div class="row justify-content-around py-5">
-        <div class="col-3 d-flex align-items-center px-4">
-          <div class="ml-4">
-
-            <h2>Tydzień z naszym partnerem</h2>
-            <p class="light-description">A, gravida sem in vitae, malesuada blandit vitae. Amet urna urna magna feugiat in gravida tellus amet.</p>
-          </div>
-        </div>
-        <div class="col-6 mr-4">
-          <img src="img/week1.png" alt="" class="p-2">
-          <img src="img/week2.png" alt="" class="p-2">
-          <img src="img/week3.png" alt="" class="p-2">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer class="h-25" id="contact">
-    <div class="container-fluid h-100">
-      <div class="row h-100 ">
-        <div class="col-6 p-5">
-          <div class="align-self-center p-5 ">
-            <div class="p-5 m-4">
-              <h2>Co nowego u nas?</h2>
-              <p class="light-description">Zapisz się do newslettera</p>
-              <input type="email" name="" value="" class="email-input" placeholder="mail@twój.pl">
-              <button type="button" name="button" class="sign-me">Zapisz mnie</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-6 contact p-5 d-flex">
-          <div class="align-self-center p-5 ">
-            <div class="p-5 m-4">
-              <h2>Kontakt</h2>
-              <ul class="contact-list op-90">
-                <li>bartosz.wilczyński@mail.pl</li>
-                <li>mail2@mail2.pl</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
-
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
 </html>

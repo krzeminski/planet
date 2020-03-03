@@ -1,8 +1,24 @@
 html, body{
   font-family: 'Raleway', sans-serif;
-  height: 100%;
   color: #40414D;
+  /* overflow: hidden; */
 }
+
+html{
+  min-height: 100%;
+  height: 100%;
+}
+
+body{
+  height: 100%;
+}
+
+header{
+  overflow: hidden;
+
+}
+
+/* html { overflow-y:scroll; } */
 
 h1{
   font-size: 96px;
@@ -190,7 +206,6 @@ h5{
   /* align-self: center; */
 }
 
-
 .head-img{
   background-image: url("../img/head-img.png");
   background-position: center;
@@ -311,4 +326,29 @@ footer{
 .player{
   margin: 5px -15px 15px;
   width: calc(100% + 30px);
+}
+
+@media (max-width: 992px) {
+  html{
+    width: fit-content;
+    height: auto;
+  }
+  body{
+    height: auto;
+  }
+  .nav{
+    position: static;
+  }
+  #menu{
+    display: none;
+  }
+
+  #deck{
+    width: 75%;
+  }
+
+  .light-card{
+    display: none;
+  }
+
 }
