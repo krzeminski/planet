@@ -159,9 +159,13 @@ h5{
 }
 
 .logo{
-  /* position: absolute; */
-  /* left: 0; */
-  /* padding: 20px; */
+  color:#313131;
+  text-decoration: none;
+}
+
+.logo:hover{
+  text-decoration: none;
+  color: rgb(49, 49, 49, 0.8);
 }
 
 
