@@ -12,7 +12,24 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700&display=swap&subset=latin-ext" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <style>
 
+    .nav-links{
+      color: rgb(64,65,77,0.7);
+    }
+    .nav-links:active{
+      color: rgb(64,65,77,0.5);
+    }
+    .nav-links:visited{
+      color: rgb(64,65,77,0.7);
+    }
+    .nav-links:hover{
+      color: rgb(64,65,77,0.5);
+    }
+    .nav-links:focus{
+      color: rgb(64,65,77,0.5);
+    }
+  </style>
 </head>
 
 <body>
@@ -37,42 +54,19 @@
       </div>
     </div>
   </nav>
-  <header class="hero h-125">
-    <div class="container-fluid h-100">
-      <div class="row h-100">
-        <div class="col-6">
-          <div class="container h-100">
-            <div class="row d-flex h-100">
-              <div class="col-7 offset-1 hero-text">
-                <h1 class="">Podcasty Slow Food</h1>
-                <p class="light-description">A, gravida sem in vitae, malesuada blandit vitae. Amet urna urna magna feugiat in gravida tellus amet.</p>
-                <div class="badges pt-4 pb-2 d-flex align-middle">
-                  <a class="badge p-2" href="#">
-                    <img src="img/spotify_podcast.png" alt="">
-                  </a>
-                  <a class="badge p-2" href="#">
-                    <img src="img/apple_podcast.png" alt="">
-                  </a>
-                </div>
-                <p >Posłuchaj na innych serwisach</p>
-              </div>
-            </div>
-          </div>
+  <header class="hero h-50">
+    <div class="container-fluid h-100 d-flex align-items-center justify-content-center">
+      <div class="text-center ">
+        <h1 class="h72">Wszystkie odcinki</h1>
+        <p class="sub72">A, gravida sem in vitae, malesuada blandit vitae. Amet urna urna magna feugiat in gravida tellus amet. </p>
+        <button type="button" name="button" class="sign-me">Odsłuchaj</button>
 
-        </div>
-        <div class="col-6 head-img">
-          <!-- <img src="img/head-img.png" alt=""> -->
-
-
-        </div>
       </div>
     </div>
   </header>
 
   <section class="">
-    <div id="cards-container" class="container w-50">
-      <h5 class="">Ostatnie odcinki</h5>
-
+    <div class="container w-50 p-4">
         <div class="card">
           <div class="row">
             <div class="col-4 pr-0">
@@ -121,7 +115,28 @@
           </div>
         </div>
 
-      <p class="light-description text-center py-5">Pokaż więcej odcinków</p>
+        <div class="card">
+          <div class="row">
+            <div class="col-4 pr-0">
+              <img class="card-img" src="img/card-img.png" alt="">
+            </div>
+            <div class="col-8 d-flex p-4">
+              <div class="align-self-center">
+                <p class="light-description op-70">19 września 2020</p>
+                <h3>Interesujące miejsca na kulinarnej mapie <span class="light-description op-80">- Odcinek 13</span></h3>
+                <p class="light-card op-80">Id arcu mi ultrices urna pellentesque. Non, in mauris quis consequat. Enim ultricies congue proin faucibus gravida aliquam. Sed nam vitae, mauris faucibus molestie sit id. Non massa bibendum egestas in nisi, aliquet diam, faucibus non.</p>
+                <p class="light-description op-50">go min</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="m-auto w-50 d-flex justify-content-around">
+        <a class="idx" href="#">1</a>
+        <a class="idx" href="#">2</a>
+        <a class="idx" href="#">3</a>
+        <a class="idx" href="#">4</a>
+        <a class="idx" href="#">5</a>
+      </div>
     </div>
   </section>
 
@@ -143,25 +158,7 @@
       </div>
     </div>
   </section>
-  <section id="about">
-    <div class="container-fluid under">
-      <div class="row under">
-        <div class="col-6 under">
-          <img class="card-img" src="img/photobubble.png" alt="">
-        </div>
-        <div class="col-6 d-flex p-5 under">
-          <div class="align-self-center p-5 ">
-            <div class="p-5 m-4">
-              <h2>O nas</h2>
-              <p class="light-description text-justify mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus diam neque proin enim massa ipsum enim rhoncus duis. Pellentesque tincidunt consequat volutpat consectetur ornare.
-                Id justo id hac nibh. Non ornare ante dictum fermentum pellentesque purus, mattis eget vulputate. Non in massa consequat pulvinar aenean diam hac in mattis. Quis sem elementum in sem amet quis sociis sit.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
   <footer class="h-25" id="contact">
     <div class="container-fluid h-100">
       <div class="row h-100 ">

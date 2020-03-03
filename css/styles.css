@@ -38,6 +38,10 @@ h5{
 
 }
 
+.dark{
+  color: #40414D;
+}
+
 .black{
   color: #000;
 }
@@ -63,6 +67,50 @@ h5{
   font-size: 1.25rem;
   font-weight: 300;
   line-height: 30px;
+}
+
+.h72{
+  font-size: 72px;
+  line-height: 70px;
+  font-weight: 700;
+}
+.sub72{
+  font-size: 18px;
+  width: 60%;
+  margin: 20px auto;
+}
+
+.idx{
+  text-align: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 24px;
+  width: 60px;
+  height: 60px;
+}
+
+.idx:active{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.idx:visited{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.idx:focus{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.idx:hover{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .op-50{
@@ -111,7 +159,7 @@ h5{
 }
 
 .nav-links:active{
-  color: #fff;
+  color: rgb(255,255,255,0.8);
   text-decoration: none;
 }
 
@@ -121,7 +169,6 @@ h5{
 }
 
 .nav-links:hover{
-  /* color: #fff; */
   color: rgb(255,255,255,0.8);
   text-decoration: none;
 }
@@ -161,7 +208,7 @@ h5{
 }
 
 .card{
-  margin: 25px 0;
+  margin: 35px 0;
   background-color: #fff;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.16);
   -moz-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.16);
