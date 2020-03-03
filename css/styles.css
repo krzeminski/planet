@@ -26,11 +26,24 @@ h3{
 
 }
 
+h4{
+  font-size: 24px;
+  font-weight: 700;
+}
+
 h5{
   font-size: 18px;
   font-size: 1.125rem;
   font-weight: 700;
 
+}
+
+.black{
+  color: #000;
+}
+
+.light{
+  font-weight: 300;
 }
 
 .light-description{
@@ -43,6 +56,13 @@ h5{
   font-size: 14px;
   font-size: 0.875rem;
   font-weight: 300;
+}
+
+.light-article{
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 30px;
 }
 
 .op-50{
@@ -132,7 +152,6 @@ h5{
   /* height: 100%; */
   /* width: 100%; */
   object-fit: cover;
-
 }
 
 #cards-container{
@@ -240,4 +259,9 @@ footer{
   line-height: 2.5rem;
   padding-top: 30px;
 
+}
+
+.player{
+  margin: 5px -15px 15px;
+  width: calc(100% + 30px);
 }
