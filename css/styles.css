@@ -1,12 +1,14 @@
 html, body{
   font-family: 'Raleway', sans-serif;
   color: #40414D;
-  /* overflow: hidden; */
+  overflow: visible;
+  /* width: 100vh; */
+
 }
 
 html{
   min-height: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 
 body{
@@ -14,7 +16,7 @@ body{
 }
 
 header{
-  overflow: hidden;
+  /* overflow: hidden; */
 
 }
 
@@ -146,6 +148,19 @@ h5{
   opacity: 90%;
 }
 
+.hv-25{
+  height: 25vh;
+}
+
+.hv-50{
+  height: 50vh;
+}
+
+.hv-75{
+  height: 75vh;
+}
+
+
 .nav{
   position: absolute;
   /* top:0; */
@@ -259,7 +274,9 @@ h5{
 
 #week{
   background-color: #F7F7F7;
-  z-index: 1;
+  z-index: 3;
+  position: relative;
+
 }
 
 .week-pics{
@@ -269,6 +286,8 @@ h5{
 #about{
   margin-top: -11%;
   z-index: -1;
+  position: relative;
+  
 }
 
 .under{
@@ -278,7 +297,8 @@ h5{
 
 footer{
   z-index: 1;
-  /* margin-top: -20%; */
+  margin-top: -10vh;
+  position: relative;
 }
 
 .email-input{
@@ -309,10 +329,10 @@ footer{
 
 .contact{
   background-image: url("../img/yellow.png");
-  background-position: center;
+  /* background-position: 50% 10%; */
   background-repeat: no-repeat;
-  /* background-size: cover; */
-  object-fit: cover;
+  /* background-size: cover */
+  /* object-fit: cover; */
 }
 
 .contact-list{
@@ -334,7 +354,9 @@ footer{
 
 @media (max-width: 992px) {
   html{
-    width: fit-content;
+    /* width: fit-content; */
+    width: 100vh;
+    overflow: auto;
     height: auto;
   }
   body{
@@ -355,4 +377,13 @@ footer{
     display: none;
   }
 
+}
+
+@media (max-width: 992px) {
+  html{
+    width: fit-content;
+    /* width: 100%; */
+    overflow: auto;
+    height: auto;
+  }
 }
