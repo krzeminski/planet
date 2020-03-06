@@ -160,6 +160,9 @@ h5{
   height: 75vh;
 }
 
+.hv-110{
+  height: 110vh;
+}
 
 .nav{
   position: absolute;
@@ -227,12 +230,11 @@ h5{
 
 .head-img{
   background-image: url("../img/head-img.png");
+  background-color: #999;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 100%; */
-  /* width: 100%; */
-  object-fit: cover;
+  width: 100%;
 }
 
 #cards-container{
@@ -269,7 +271,7 @@ h5{
   height: 100%;
   width: 100%;
   object-fit: cover;
-
+  border-radius: 15px 0 0 15px;
 }
 
 #week{
@@ -287,12 +289,8 @@ h5{
   margin-top: -11%;
   z-index: -1;
   position: relative;
-  
 }
 
-.under{
-  z-index: -1;
-}
 
 
 footer{
@@ -354,36 +352,69 @@ footer{
 
 @media (max-width: 992px) {
   html{
-    /* width: fit-content; */
     width: 100vh;
+    width: fit-content;
     overflow: auto;
     height: auto;
   }
+
   body{
     height: auto;
   }
   .nav{
     position: static;
   }
+
+  #article{
+    width: 90%!important;
+  }
   #menu{
     display: none;
   }
 
   #deck{
-    width: 75%;
+    width: 90%!important;
+  }
+
+  footer{
+    z-index: 0;
+    margin-top: auto;
+    position: static;
+  }
+  .player {
+    margin: 5px -10px 5px;
+    width: calc(100% + 20px);
+  }
+  .contact{
+    background-color: #FFD77C;
+  }
+  .under-img{
+    background-blend-mode: multiply;
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 767px) {
+  .card-img{
+    position: relative;
+    top:0;
+    height: 60%;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .card-description{
+    position: absolute;
+    bottom: 0;
+    height: 40%;
+    background-color: white;
+    /* width: inherit; */
+    margin-left: 15px;
+    border-radius: 0px 0 15px 15px;
   }
 
   .light-card{
     display: none;
   }
 
-}
-
-@media (max-width: 992px) {
-  html{
-    width: fit-content;
-    /* width: 100%; */
-    overflow: auto;
-    height: auto;
-  }
 }
