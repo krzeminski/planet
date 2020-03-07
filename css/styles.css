@@ -243,6 +243,11 @@ h5{
   z-index: 2;
 }
 
+#deck{
+  z-index: 2;
+  margin-top: -20vh;
+}
+
 .card{
   margin: 35px 0;
   background-color: #fff;
@@ -305,7 +310,7 @@ footer{
   border: 0px none;
   border-radius: 15px;
   font-size: 18px;
-  line-height: 36px;
+  /* line-height: 36px; */
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -361,6 +366,93 @@ footer{
   body{
     height: auto;
   }
+  .white{
+    color: #fff!important;
+  }
+  h1{
+    font-size: 48px;
+    font-size: 3rem;
+    line-height: 50px;
+  }
+  h2{
+    font-size: 24px;
+    line-height: 30px;
+  }
+  h3{
+    font-size: 24px;
+    line-height: 30px;
+  }
+  h4{
+    font-size: 18px;
+    line-height: 36px;
+  }
+  h5{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .big-h2{
+    font-size: 36px;
+    line-height: 35px;
+  }
+  .h72{
+    font-size: 36px;
+    line-height: 70px;
+  }
+  .sub72{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .logo{
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .light-description{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: justify;
+  }
+  .title-other{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+    color: #fff;
+  }
+  .email-input{
+    font-size: 11px;
+    line-height: 13px;
+  }
+  .sign-me{
+    font-size: 14px;
+    line-height: 40px;
+  }
+  .contact-list{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+    padding-top: 0;
+  }
+
+
+  .light-article{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .light{
+    font-size: 24px;
+    line-height: 35px;
+  }
+
+
   .nav{
     position: static;
   }
@@ -374,6 +466,7 @@ footer{
 
   #deck{
     width: 90%!important;
+    margin-top: 25px;
   }
 
   footer{
